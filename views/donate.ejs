@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/donate.css">
+  <link href="/css/footer.css" rel="stylesheet" type="text/css">
+	<title>Doante Now</title>
+
+</head>
+<body>
+	<header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar">
+    <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact</a>
+      </li>
+</nav>
+    </div>
+  </header>
+
+
+
+
+
+
+<div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="donation-form-wrap">
+                    <h2>Make a donation</h2>
+
+                    <h4 class="mt-5">How much do you want to donate?</h4>
+
+                    <form class="donation-form" action="/donate" method="post">
+                        <div class="donate-amount-wrap d-flex flex-wrap align-items-center mt-5">
+                            <label class="radio-label">
+                                <input type="radio" name="amount" value="10" />
+                                <span class="donate-amount">GHc10</span>
+                            </label>
+
+                            <label class="radio-label">
+                                <input type="radio" name="amount" value="20" />
+                                <span class="donate-amount">GHc20</span>
+                            </label>
+
+                            <label class="radio-label">
+                                <input type="radio" name="amount" value="25" checked="checked"/>
+                                <span class="donate-amount">GHc25</span>
+                            </label>
+
+                            <label class="radio-label">
+                                <input type="radio" name="amount" value="50" />
+                                <span class="donate-amount">GHc50</span>
+                            </label>
+
+                            <label class="radio-label">
+                                <input type="radio" name="amount" value="100" />
+                                <span class="donate-amount">GHc100</span>
+                            </label>
+
+                            <label class="radio-label">
+                                <input type="radio" name="amount" value="custom" />
+                                <span class="donate-amount">Other Amount</span>
+                            </label>
+                        </div>
+
+                        <div class="payment-type d-flex flex-wrap align-items-center">
+                            <h4 class="w-100 mt-5">Payment Type</h4>
+
+                            <label class="d-flex align-items-center mt-4">
+                                <input type="radio" name="type" value="One time" />
+                                <span class="payment-type-radio"></span>
+                                <span class="centered-dot"></span>
+
+                                One time
+                            </label>
+
+                            <label class="d-flex align-items-center mt-4">
+                                <input type="radio" name="type" value="Recurring" checked="checked" />
+                                <span class="payment-type-radio"></span>
+                                <span class="centered-dot"></span>
+
+                                Recurring
+                            </label>
+                        </div>
+
+                        <div class="billing-information  d-flex flex-wrap justify-content-between align-items-center">
+                            <h4 class="w-100 mt-5 mb-3">Billing Information</h4>
+
+                            <input type="text" placeholder="Name" name="Name">
+                            <input type="email" placeholder="E-mail" name="email">
+                            <input type="text" placeholder="Address" name="address">
+                            <input type="text" placeholder="City" name="city">
+                            <input type="number" placeholder="Postcode" name="postcode">
+                            <input type="text" placeholder="Country" name="country">
+                        </div>
+
+                        <div class="payment-type d-flex flex-wrap align-items-center">
+                            <h4 class="w-100 mt-5">Payment Method</h4>
+
+                            <label class="d-flex align-items-center mt-4">
+                                <input type="radio" name="method" value="Credit Card" />
+                                <span class="payment-type-radio"></span>
+                                <span class="centered-dot"></span>
+
+                                Credit Card
+                            </label>
+
+                            <label class="d-flex align-items-center mt-4">
+                                <input type="radio" name="method" value="PayPal" checked="checked" />
+                                <span class="payment-type-radio"></span>
+                                <span class="centered-dot"></span>
+
+                                PayPal
+                            </label>
+                        </div>
+
+                        <input class="btn btn-success" type="submit" value="Donate Now">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<!--Footer Section-->
+
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 footer-info">
+          <h3>THE RESTORATION</h3>
+          <p>
+            We have a clear vision of where we need to be as we look into our envisioned future;
+Restore will be recognized by the world as an authority in holistic child development, and will be a global benchmark for excellence in this field, as a result of our community intervention for the development of children.
+Restore will demonstrate excellence in this vast ministry.
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="/">Top</a></li>
+            <li><a href="/register">Volunteer</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/donate">Donate</a></li>
+          </ul>
+          </div>
+          <div class="col-lg-3  col-md-6 footer-contact" style="color: white;">
+            <h4>Locate Us</h4>
+            <p>24 Block D<br>
+              Toronto, Canada <br>
+              <strong>Phone:</strong> +41 21132 1231 <br>
+              <strong>Email:</strong>restore@gmail.com <Br>
+            </p>
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="twitter"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="twitter"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="twitter"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="twitter"><i class="fa fa-linkedin"></i></a>
+              
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4 style="color: #f71e0e;">Our Newsletter</h4>
+            <p>
+              Restore will be the standard by which other community organizations are measured in terms of benefit to the child and immediate community. We will develop such efficient and timely processes, that a child and his caregiver can be identified today and registered by the following day. 
+
+            </p>
+            <form accept="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+              
+            </form>  
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div style="color: #fff;" class="copyright">
+       Copyright &copy; 2020  | All rights reserved | <strong style="color: #f71e0e">The</strong> Restoration 
+      
+    </div>
+    
+  </div>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

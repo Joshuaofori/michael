@@ -1,0 +1,116 @@
+.navbar-nav a{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand{
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+}
+.navbar-nav{
+	text-align: center;
+}
+.nav-link.active , .nav-link:focus{
+	color: #fff;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	background-position: center;
+	padding: 250px 0 200px;
+
+}
+
+h1{
+	font-size: 40px;
+	color: #fff;
+	margin-top:250px;
+}
+
+p{
+	font-size: 17px;
+	color: #fff;
+}
+
+h3{
+	font-size: 25px;
+	color: #fff;
+}
+
+.glyphicon-pencil{
+	font-size: 35px;
+	color: #fff;
+	float: right;
+	margin-top: 20px;
+}
+
+.col-md-5{
+	margin-top:100px;
+	box-shadow: -1px 1px 60px 10px black;
+	background: rgb(0,0,0,0.4);
+}
+
+.label{
+	font-weight: normal;
+	margin-top: 15px;
+	color: #fff;
+	font-size: 17px;
+}
+
+.form-control{
+	background: transparent;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 1px solid white;
+	font-size: 18px;
+	margin-top: 13px;
+	height: 40px;
+	color: white;
+}
+
+input[type="checkbox"]{
+	margin-top: 15px;
+	width: 15px;
+	height: 15px;
+}
+
+small{
+	font-size: 17px;
+	color: #fff;
+}
+input[type="radio"]{
+	margin-top: 22px;
+}
+
+option{
+	color: grey;
+	font-size: 16px;
+}
+.btn-info{
+	margin-top: 20px;
+	font-size: 16px;
+	width: 120px;
+	margin-left: 80px;
+	margin-bottom: 20px;
+}
+
+.btn-warning{
+	margin-top: 20px;
+	font-size: 16px;
+	width: 120px;
+	margin-bottom: 20px;
+}
