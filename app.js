@@ -96,8 +96,8 @@ const memberSchema= mongoose.Schema({
         app.get("/post/:postName",function(req,res){
             const requestedPost= req.params.postName;
             console.log(requestedPost);
-           Blog.findOne({title:requestedPost},function(err,post){
-               console.log(post);
+           Post.findOne({title:requestedPost},function(err,post){
+               //console.log(post);
                 if(_.lowerCase(post.title)==_.lowerCase(req.params.postName)){
                     console.log("match found");
                     res.render("post",
@@ -113,6 +113,3 @@ app.listen(process.env.PORT || 3000,function(){
 console.log("server is running on port 3000");
 });
 
-
-//63519df1ac716536efdc8c2903ed2267-us3
-//c51908f5fb
